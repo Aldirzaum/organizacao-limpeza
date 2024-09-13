@@ -1,17 +1,13 @@
 {
-  "name": "limpeza",
+  "name": "organizacao-limpeza",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.0",
-    "node-cron": "^3.0.3"
+    "express": "^4.17.3",
+    "node-cron": "^3.0.2"
   }
 }
