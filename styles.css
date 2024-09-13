@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8EDE3; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DFD3C3; /* Cor do cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+#legend {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #8D493A; /* Cor da borda das caixas de cor */
+}
+
+#image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #D0B8A8; /* Borda sutil ao redor da imagem */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+#tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#tasks-table th, #tasks-table td {
+    border: 1px solid #8D493A; /* Cor da borda das células */
+    padding: 8px;
+    text-align: left;
+}
+
+#tasks-table th {
+    background-color: #DFD3C3; /* Cor de fundo dos cabeçalhos da tabela */
+}
+
+#tasks-table tr:nth-child(even) {
+    background-color: #F8EDE3; /* Cor de fundo das linhas pares */
+}
+
+#tasks-table tr:nth-child(odd) {
+    background-color: #FFFFFF; /* Cor de fundo das linhas ímpares */
+}
