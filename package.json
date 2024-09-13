@@ -1,13 +1,11 @@
 {
-  "name": "organizacao-limpeza",
+  "name": "seu-projeto",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo 'No build step required'"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.3",
-    "node-cron": "^3.0.2"
+    "express": "^4.17.3"
   }
 }
