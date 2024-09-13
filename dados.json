@@ -1,0 +1,31 @@
+{
+  "semanaAtual": 1,
+  "semanas": [
+    {
+      "semana": 1,
+      "responsabilidades": {
+        "aldir": "parte 1",
+        "joao": "parte 2",
+        "jhonnata": "parte 3"
+      },
+      "tarefasConcluidas": {
+        "aldir": true,
+        "joao": true,
+        "jhonnata": true
+      }
+    },
+    {
+      "semana": 2,
+      "responsabilidades": {
+        "aldir": "parte 2",
+        "joao": "parte 3",
+        "jhonnata": "parte 1"
+      },
+      "tarefasConcluidas": {
+        "aldir": true,
+        "joao": false,
+        "jhonnata": true
+      }
+    }
+  ]
+}
